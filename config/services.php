@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'usps' => [
+		'username' => "550MULTI4273",
+		'testmode' => false,
+	],
+
 ];

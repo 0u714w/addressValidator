@@ -67,7 +67,9 @@
         <div class="flex-center position-ref full-height">
 
             <div id="app">
-                <example-component></example-component>
+                <example-component
+                    :addresses='@json($savedAddresses)'
+                ></example-component>
              </div>
         </div>
     </body>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45a567a9aa157630737793c5a77f88d6",
+    "content-hash": "a7eca7cc78f8fcdbe89611600b18ccc4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -880,6 +880,67 @@
                 }
             ],
             "time": "2022-03-20T21:55:58+00:00"
+        },
+        {
+            "name": "johnpaulmedina/laravel-usps",
+            "version": "7.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpaulmedina/laravel-usps.git",
+                "reference": "207d3d61769f02704df9148abd6088bae75ec5a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpaulmedina/laravel-usps/zipball/207d3d61769f02704df9148abd6088bae75ec5a3",
+                "reference": "207d3d61769f02704df9148abd6088bae75ec5a3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Johnpaulmedina\\Usps\\UspsServiceProvider"
+                    ],
+                    "aliases": {
+                        "Usps": "Johnpaulmedina\\Usps\\Facades\\Usps"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Johnpaulmedina\\Usps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Paul Medina",
+                    "email": "jp@leadtrust.io"
+                },
+                {
+                    "name": "Vincent Gabriel"
+                }
+            ],
+            "description": "USPS API for Laravel 7",
+            "homepage": "https://github.com/johnpaulmedina/laravel-usps/",
+            "keywords": [
+                "laravel",
+                "laravel usps",
+                "laravel7",
+                "usps"
+            ],
+            "support": {
+                "issues": "https://github.com/johnpaulmedina/laravel-usps/issues",
+                "source": "https://github.com/johnpaulmedina/laravel-usps/tree/master"
+            },
+            "time": "2020-06-23T16:47:01+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4700,6 +4761,61 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "time": "2021-12-08T09:12:39+00:00"
+        },
+        {
+            "name": "vinceg/usps-php-api",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VinceG/USPS-php-api.git",
+                "reference": "d8865542a572ec728e682c305d8ec06f8a37a39d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VinceG/USPS-php-api/zipball/d8865542a572ec728e682c305d8ec06f8a37a39d",
+                "reference": "d8865542a572ec728e682c305d8ec06f8a37a39d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "USPS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Gabriel",
+                    "homepage": "http://vadimg.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander Reiff",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ryan Hayle",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP wrapper for USPS Web Tools API",
+            "keywords": [
+                "api",
+                "usps"
+            ],
+            "support": {
+                "issues": "https://github.com/VinceG/USPS-php-api/issues",
+                "source": "https://github.com/VinceG/USPS-php-api/tree/v1.1.0"
+            },
+            "abandoned": true,
+            "time": "2021-03-15T06:14:38+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
