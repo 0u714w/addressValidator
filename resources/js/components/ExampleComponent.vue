@@ -13,7 +13,7 @@
       <div class="col-md-8">
         <div class="card">
           <div class="card-header">
-            <strong>Please enter in an address</strong>
+            <strong>Please enter in an address hi</strong>
           </div>
 
           <b-form-group>
